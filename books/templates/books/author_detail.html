@@ -1,0 +1,8 @@
+{% extends "books/base.html" %}
+
+{% block content %} 
+  <h2>{{ object.name }}</h2>
+  <p> name: {{ object.salutation }} {{ object.name }}
+  <p> email: {{ object.email }}
+  <p> headshot: {{ object.headshot }}
+{% endblock %}
